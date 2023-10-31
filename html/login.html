@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <Link rel="short icon" href="../icon/32.jpg">
+    <title>login</title>
+    <style>
+        *{
+   margin: 0;
+   
+
+}
+
+header{
+   display:flex;
+   justify-content:space-between;
+   align-items:center;
+   background: rgba(38, 92, 14, 0.2);
+ position: fixed;
+ width: 100%;
+}
+
+
+ul{
+   
+   padding-bottom:5px;
+}
+ul li{
+   display:block;
+   text-align: center;
+   font-size: 20px;
+   line-height: 40px;
+   width: 150px;
+   height: 40px;
+   float:left;
+}
+
+ul li :hover{display: block;
+}
+ul li a{
+   
+   color:rgb(219, 205, 205);
+   text-decoration: none;
+}
+
+
+ul li ul li{
+   display: none;
+}
+ul li:hover ul li{
+   display: block;
+   
+}
+.content {
+   text-decoration:none;
+   color:rgb(236, 231, 231);
+   text-transform:uppercase;
+   padding:0px  40px ;
+   font-size:20px;
+}
+
+.content:hover{
+   box-shadow: 0 0 20px #e0cf37, 0 0 40px #e4412c, 0 0 90px #da971b;
+   color:rgb(82, 146, 4);
+   padding:15px;
+   border-radius:80px 5px;
+   background-color: rgba(236, 236, 126,.2);
+  
+}
+li a:hover{
+   color:rgb(82, 146, 4);
+   padding:5px;
+   border-radius:80px 5px;
+   background-color: rgba(236, 236, 126,.2);
+   box-shadow: 0 0 20px #e0cf37, 0 0 40px #e4412c, 0 0 90px #da971b;
+  
+}
+
+div{
+   width:100vw;
+height:25vh;
+  
+}
+
+body{background-color: #0c0e0c;
+background-size: cover;
+z-index:1;
+
+}
+.cube{
+ 
+   width: 300px;
+   height:300px;
+   animation: animate 4s linear infinite;
+   }
+@keyframes animate{
+   0%{
+       transform: rotateX(-30deg) rotateY(0deg);
+   }
+   100%{
+       transform: rotateX(-30deg) rotateY(360deg);
+   }
+   
+}
+
+ul a{
+   text-decoration:none;
+
+}
+font{
+    font-size:100px;
+}
+h1{
+    font-size:60px;
+    text-transform:uppercase ;
+    padding:0px 50px ;
+  
+}
+
+      
+   </style>
+  <body>
+  <div class="div">
+    <header>
+        
+        <a  href="Home.html" class="content" target="_self"  >home</a>
+        <ul>
+            <Li> <a  href="overview peach.html"  >peach</a>
+                <ul>
+                    <Li> <a  href="overview peach.html"  >overview</a></Li>
+                    <Li> <a  href="video peach.html"   >video</a></Li>
+                    <Li> <a  href="images peach.html"  >images</a></Li>
+                </ul>
+            </Li>
+            <Li> <a  href="overview grape.html"   >grape</a>
+                <ul>
+                    <Li> <a  href="overview grape.html"   >overview</a></Li>
+                    <Li> <a  href="video grape.html"  >video</a></Li>
+                    <Li> <a  href="images grape.html"  >images</a></Li>
+                </ul></Li>
+            <Li> <a  href="overview ghat.html" target="_blank"  >ghat</a>
+                <ul>
+                    <Li> <a  href="overview ghat.html"   >overview</a></Li>
+                    <Li> <a  href="video ghat.html"  >video</a></Li>
+                    <Li> <a  href="images ghat.html"  >images</a></Li>
+                </ul></Li>
+        </ul>
+                   
+    </header>
+    <pre dir="rtl">
+
+
+
+
+      <h1 style="color: aliceblue;" ><b><i ><font color="red" size="7">w</font></i></b>elcome</h1>
+   </pre>
+   <pre dir="rtl" style="color: beige;font-size: larger">                 <h2>   to the page login</h2>                                     </pre>
+
+
+</div>
+<div class="cube">
+   <fieldset dir="rtl " style="border-radiu:50%;border: none;background-color: rgba(19, 150, 8, 0.1);">
+      <p style="color: rgba(26, 116, 219, 0.993);">Did you forget your password?</p>
+      <input type="text"dir="ltr" name="name"  placeholder="user name" dir="rtl" required style="color: royalblue;font-size: larger; size: 50px; border: none;background-color: rgba(0,0,0,.5);margin: 20px;" >
+      <input type="password"name="ame"  placeholder="password"  required style="color: royalblue;font-size: larger; size: 50px; border: none;background-color:  rgba(0,0,0,.5)" >   
+      <a href="tourism.html"><button  style="text-decoration: none;background-color:  rgba(233, 50, 50, 0.671);width:50px;height: 50px;border-radius: 20%;border: none"" >login</button></a>
+  
+</fieldset>
+
+            
+           </div>
+           <div >
+            <fieldset dir="rtl " style="border-radiu:50%;border: none;background-color: rgba(19, 150, 8, 0.1);">
+               <p style="color: rgba(26, 116, 219, 0.993);">If you are unable to log in above,register here provided that it consists of a maximum of 3?</p>
+               <from>
+               <input type="text"dir="ltr"   placeholder="user name" dir="rtl"  style="color: royalblue;font-size: larger; size: 50px; border: none;background-color: rgba(0,0,0,.5);margin: 20px;" required >
+               <input type="password"  placeholder="password"  maxlength="3" style="color: royalblue;font-size: larger; size: 50px; border: none;background-color:  rgba(0,0,0,.5)"  required >
+               <a href="tourism.html" ><button  style="text-decoration: none;background-color:  rgba(233, 50, 50, 0.671);width:50px;height: 50px;border-radius: 20%;border: none" >login</button></a>
+           </from>
+         </fieldset>
+                          </div>
+                    
+</body>
+</html>
